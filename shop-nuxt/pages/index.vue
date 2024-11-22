@@ -1,6 +1,7 @@
 <template>
 <div>
-    <div class="row mb-3 d-sm-block d-none">
+    <!-- <baseButton outline="" color="danger" >ثبت نام</baseButton> -->
+    <div class="row mb-3 d-sm-block d-none">      
                     <div class="col-12">
                         <!-- start of banner -->
                         <div class="banner-img">

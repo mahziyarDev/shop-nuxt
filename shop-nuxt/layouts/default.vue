@@ -28,7 +28,8 @@ useHead({
     link:[
         { rel:"stylesheet" ,href:"/css/dependencies.css"},
         { rel:"stylesheet" ,href:"/css/custom.css.css"},
-        { rel:"stylesheet" ,href:"/css/theme.css"}        
+        { rel:"stylesheet" ,href:"/css/theme.css"},
+        { rel:"stylesheet" ,href:"/css/animate.min.css"},
     ],
     script:[
         {src:"/js/dependencies/bootstrap-slider.min.js",body:true},

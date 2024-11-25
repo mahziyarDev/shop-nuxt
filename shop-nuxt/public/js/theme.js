@@ -385,14 +385,14 @@
   /* end Zoom ======*/
 
   /*====== ReadMore ======*/
-  SCRIPT.ReadMore = function () {
-    $(".expandable-text-expand-btn").on("click", function () {
-      let contentFixedHeight = $(this).parents(".expandable-text");
-      contentFixedHeight.toggleClass("active");
-      $(this).find(".show-more").toggleClass("d-none");
-      $(this).find(".show-less").toggleClass("d-none");
-    });
-  };
+  // SCRIPT.ReadMore = function () {
+  //   $(".expandable-text-expand-btn").on("click", function () {
+  //     let contentFixedHeight = $(this).parents(".expandable-text");
+  //     contentFixedHeight.toggleClass("active");
+  //     $(this).find(".show-more").toggleClass("d-none");
+  //     $(this).find(".show-less").toggleClass("d-none");
+  //   });
+  // };
   /* end ReadMore ======*/
 
   /*====== ShopView ======*/
@@ -839,7 +839,7 @@
       SCRIPT.Countdown(),
       SCRIPT.Slider(),
       SCRIPT.SimpleBar(),
-      SCRIPT.ReadMore(),
+      // SCRIPT.ReadMore(),
       SCRIPT.ShopView(),
       SCRIPT.Zoom(),
       SCRIPT.Form(),

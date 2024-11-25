@@ -1,6 +1,7 @@
 <template>
 <div>
     <!-- <baseButton outline="" color="danger" >ثبت نام</baseButton> -->
+  <nuxt-link class="btn btn-warning" to="/test">test</nuxt-link>
     <div class="row mb-3 d-sm-block d-none">      
                     <div class="col-12">
                         <!-- start of banner -->
